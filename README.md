@@ -10,11 +10,10 @@
 
 **Version 1.2.0** · 2026-09-20 · 611 KB
 
-- [Direct download](https://dl.audion.dev/tc-updater/1.2.0/Audion_TC_Updater_v1.2.0_Full.zip) — unmetered, no rate limits
+- [Direct download](https://audion.dev/get/tc-updater/1.2.0/Audion_TC_Updater_v1.2.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/tc-updater) — every version and how to install
-- [GitHub release](https://github.com/Tensionix/tc-updater/releases/tag/v1.2.0)
 
-<p align="center"><img src="docs/screenshot.png" alt="The program window" width="560"></p>
+<p align="center"><img src="Docs/screenshot.png" alt="The program window" width="560"></p>
 
 `SHA-256: 4ebfc39f5a5fcf06dcfe3b62dc3124f0a836537dd461cb443c1f17f06eb9457d`
 
@@ -24,7 +23,7 @@ An **Audion** tool, published by [Tensionix](https://github.com/Tensionix).
 <!-- /audion:release -->
 
 
-[Русский](docs/README_RU.md)
+[Русский](Docs/README_RU.md)
 
 **Contents**
 
@@ -47,6 +46,15 @@ without going into each one by hand.
 `Start.exe` opens the window. At the top are the releases folder and the section
 switch **UPDATE | BUILD**; the log runs down the right side at full height - on a
 16:9 screen height is what runs out first.
+
+Beside the section switch stands the pair **RU | EN** - the language of the window. By
+default the window and the three files without a window speak English, whatever the
+language of Windows. The pair changes captions, tooltips and the language in which the
+check, the update and the build write; the choice is remembered in
+`._runtime\ui-lang.txt` and holds until it is changed again. Lines already printed into the
+log stay as they were, and what Windows and other programs write does not depend on the
+choice. While work is going on the language cannot be switched: halfway through it would
+break the report.
 
 On the first start the window asks what to work with on this machine: the releases
 folder, the installer and the GitHub key. Only the releases folder is required: without
@@ -77,7 +85,7 @@ the files ask to open `Start.exe` or to drop a folder.
 ## Which builds are taken
 
 Any `Audion TC…` folder in the releases folder: Initial, Audion, Ultimate, Creator,
-Dev, Admin - as many as there are. A container such as
+Developer, Admin - as many as there are. A container such as
 `Audion TC Portable\Audion TC` is found too. A build is a folder holding
 `TOTALCMD64.EXE`.
 
@@ -156,9 +164,9 @@ or more. The report goes to `._runtime\reports\build-*.md`.
 | Ultimate | `ultimate` | `Audion TC Ultimate` | RU |
 | Admin | `admin` | `Audion TC Admin` | RU |
 | Creator | `creator` | `Audion TC Creator` | RU |
-| Dev | `programmer` | `Audion TC Dev` | RU |
+| Developer | `programmer` | `Audion TC Developer` | RU |
 
-Admin, Creator and Dev are sets by occupation: they are built exactly by their list,
+Admin, Creator and Developer are sets by occupation: they are built exactly by their list,
 the way the wizard installs them.
 
 ### Licence

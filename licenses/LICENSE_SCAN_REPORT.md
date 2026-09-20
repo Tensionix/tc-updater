@@ -1,24 +1,24 @@
 # Audion Build Licenses Scan Report
 
 - Project: **Audion TC Updater** (`audion-tc-updater`)
-- Run: `20260918T030043Z_audion-tc-updater_12404181`
-- Project root: `S:\Releases\Audion TC Updater`
-- Scan root: `S:\Releases\Audion TC Updater`
-- Output: `S:\Releases\Audion TC Updater\licenses`
-- Status: **PASS**
-- Components: 1
-- Bundled: 1
+- Run: `20260919T204523Z_audion-tc-updater_3e9eda97`
+- Project root: `E:\Release NEW\Audion TC Updater`
+- Scan root: `E:\Release NEW\Audion TC Updater`
+- Output: `E:\Release NEW\Audion TC Updater\licenses`
+- Status: **FAIL**
+- Components: 0
+- Bundled: 0
 - Optional runtime: 0
 
 ## Issues
 
-No issues detected.
+| Severity | Code | Component/path | Message |
+|---|---|---|---|
+| ERROR | `UNKNOWN_RISKY_FILE` | Start.exe | Unmapped binary file: Start.exe |
 
 ## Changes since previous scan
 
-| Component | Change | Old | New |
-|---|---|---:|---:|
-| Audion launcher | `NEW_COMPONENT_APPROVED_PROFILE` | - | bundled |
+No previous snapshot or no recorded changes.
 
 ## Scope
 
