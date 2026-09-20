@@ -8,14 +8,15 @@
   <a href="https://github.com/Tensionix/tc-updater/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Tensionix/tc-updater?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600"></a>
 </p>
 
-**Version 1.1.1** · 2026-09-20 · 639 KB
+**Version 1.2.0** · 2026-09-20 · 611 KB
 
-- [Direct download](https://audion.dev/get/tc-updater/1.1.1/Audion_TC_Updater_v1.1.1_Full.zip) — unmetered, no rate limits
+- [Direct download](https://dl.audion.dev/tc-updater/1.2.0/Audion_TC_Updater_v1.2.0_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/tc-updater) — every version and how to install
+- [GitHub release](https://github.com/Tensionix/tc-updater/releases/tag/v1.2.0)
 
 <p align="center"><img src="docs/screenshot.png" alt="The program window" width="560"></p>
 
-`SHA-256: 0ef9e859510d57449a862615a6f27d2a5b7e7bdb172d8cfb61646ccc96308034`
+`SHA-256: 4ebfc39f5a5fcf06dcfe3b62dc3124f0a836537dd461cb443c1f17f06eb9457d`
 
 ---
 
